@@ -1,0 +1,6 @@
+text = "bllballblallaldladla : 0.8787"
+pos = text.find(':')
+nb = float(text[pos+1:])
+#test = float(text)
+print(nb)
+#print(test)
