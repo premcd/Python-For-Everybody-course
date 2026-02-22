@@ -10,4 +10,5 @@ if fh > 40:
     reg = fh * fr
     abo = 0.5*fr*(fh-40)
     gpay = reg + abo
+    
 print ("Pay:", gpay)
