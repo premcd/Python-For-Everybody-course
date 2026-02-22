@@ -1,0 +1,5 @@
+import sqlite3
+
+handle = open('tracks.csv')
+for line in handle:
+    print (line)

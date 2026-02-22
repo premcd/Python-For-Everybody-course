@@ -1,0 +1,8 @@
+import urllib.request, urllib.parse, urllib.error
+url = input('enter a url:')
+if len(url)<1:
+    url = 'http://py4e-data.dr-chuck.net/comments_42.xml'
+
+fhand = urllib.request.urlopen(url)
+for line in fhand:
+    print(line.decode().strip)

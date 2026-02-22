@@ -1,0 +1,7 @@
+import json
+import urllib.request, urllib.parse
+
+address = input('enter an address:')
+api_url = 'http://py4e-data.dr-chuck.net/opengeo?'
+url_to_send = api_url + urllib.parse.urlencode(address)
+print('retrieving', url_to_send)

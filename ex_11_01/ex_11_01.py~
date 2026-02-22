@@ -1,0 +1,12 @@
+import re
+
+filename = input('enter file name')
+if len(filename) <1: filename = 'regex_sum.txt'
+
+fhandle = open(filename)
+for line in fhandle:
+    line.rstrip()
+    nb = re.findall([0-9][0-9], line)
+    print(nb)
+
+    

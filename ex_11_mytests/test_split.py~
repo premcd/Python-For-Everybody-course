@@ -1,0 +1,3 @@
+txt = acfsac ascs sacx sac :a asc:.[ acascsa@acsac.pom acsaxmASXMJ  HS
+words = txt.split()
+print(words)
